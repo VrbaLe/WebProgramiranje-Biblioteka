@@ -1,0 +1,67 @@
+.bibliotekaWrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 150px;
+}
+
+.bibliotekaLevo {
+    width:170px;
+    padding: 10px;
+}
+
+.bibliotekaDesno {
+    width: 700px;
+    padding: 10px;
+}
+
+.policaWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.policaLevi {
+    width: 80px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.policaDesni {
+    width: 70px;
+    text-align: right;
+}
+
+.policaPrikaz {
+    display: flex;
+    gap: 3px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: #f0f0f0;
+    flex: 1; /* zauzima sav prostor između leve i desne kolone */
+    box-sizing: border-box;
+}
+
+.popunjenoBar {
+    height: 100%;
+    background-color: #4CAF50;
+    transition: width 0.5s ease;
+}
+
+.knjigaSlot {
+    flex: 1;           /* svi kvadratići iste širine unutar pravougaonika */
+    height: 25px;
+    border-radius: 3px;
+    border: 1px solid #aaa;
+}
+
+.popunjeno {
+    background-color: #4CAF50;
+}
+
+.prazno {
+    background-color: #ddd;
+}
